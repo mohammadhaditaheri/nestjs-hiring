@@ -37,7 +37,7 @@ A comprehensive NestJS backend application implementing secure OTP authenticatio
 ### 1. Clone Repository
 ```bash
 git clone <repository-url>
-cd nestjs-hiring-test
+cd nestjs-hiring
 ```
 
 ### 2. Environment Configuration
@@ -65,9 +65,6 @@ npm install
 
 # Start infrastructure services
 docker-compose up -d postgres redis rabbitmq
-
-# Run database migrations
-npm run migration:run
 
 # Start development server
 npm run start:dev

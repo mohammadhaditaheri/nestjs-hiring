@@ -288,7 +288,7 @@ npm run test:watch
 docker build -t nestjs-hiring-test .
 
 # Deploy with docker-compose
-docker-compose -f docker-compose.prod.yml up -d
+docker-compose -f docker-compose.yml up -d
 ```
 
 ### Health Checks
@@ -296,29 +296,6 @@ docker-compose -f docker-compose.prod.yml up -d
 - **Database**: PostgreSQL connection check
 - **Redis**: Ping command
 - **RabbitMQ**: Management API status
-
-## 🔍 Monitoring & Logging
-
-- **Application Logs**: Structured JSON logging
-- **Performance Metrics**: Response time monitoring
-- **Error Tracking**: Comprehensive error logging
-- **Health Checks**: Service availability monitoring
-
-## 🛡 Production Considerations
-
-### Security Checklist
-- [ ] Environment variables secured
-- [ ] SSL/TLS certificates configured
-- [ ] Rate limiting properly configured
-- [ ] Database credentials rotated
-- [ ] SMS.ir API keys secured
-
-### Performance Checklist
-- [ ] Database indexes optimized
-- [ ] Redis memory limits configured
-- [ ] RabbitMQ queue limits set
-- [ ] Connection pools tuned
-- [ ] Caching strategies implemented
 
 ## 📝 License
 
@@ -336,7 +313,6 @@ This project is licensed under the MIT License.
 
 For support and questions:
 - Create an issue in the repository
-- Contact: [your-email@example.com]
 
 ---
 
